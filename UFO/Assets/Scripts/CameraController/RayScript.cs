@@ -15,7 +15,8 @@ public class RayScript : MonoBehaviour
     [SerializeField] private Slider KnobR;
     [SerializeField] private Slider KnobL;
 
-    [SerializeField] private Image _filledImage;
+    [SerializeField] private Image _filledImageL;
+    [SerializeField] private Image _filledImageR;
 
     private void Start()
     {
@@ -56,8 +57,9 @@ public class RayScript : MonoBehaviour
                     break;
                 case "Button":
                     {
-                        _filledImage.fillAmount += Time.fixedDeltaTime * 0.5f;
-                        if (_filledImage.fillAmount == 1)
+                        _filledImageL.fillAmount += Time.fixedDeltaTime * 0.5f;
+                        _filledImageR.fillAmount += Time.fixedDeltaTime * 0.5f;
+                        if (_filledImageL.fillAmount == 1)
                         {
                             hit.collider.gameObject.GetComponent<IActionCaller>().Call();
                         }                      
@@ -67,8 +69,8 @@ public class RayScript : MonoBehaviour
         }
         if (hit.collider == null || hit.collider.CompareTag("Button") == false)
         {
-            _filledImage.fillAmount -= Time.fixedDeltaTime * 1.5f;
-            Debug.Log("уменьшаем");
+            _filledImageL.fillAmount -= Time.fixedDeltaTime * 1.5f;
+            _filledImageR.fillAmount -= Time.fixedDeltaTime * 1.5f;
         }
     }
 
