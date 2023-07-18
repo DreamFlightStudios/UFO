@@ -11,6 +11,7 @@ TagManager:
   - BottomPlus
   - BottomMinus
   - Button
+  - Object
   layers:
   - Default
   - TransparentFX
