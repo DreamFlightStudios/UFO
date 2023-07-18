@@ -48,8 +48,8 @@ public class RayScript : MonoBehaviour
         }
         if (hit.collider == null || hit.collider.CompareTag("Object") == false)
         {
-            _filledImageL.fillAmount -= Time.fixedDeltaTime * 1.5f;
-            _filledImageR.fillAmount -= Time.fixedDeltaTime * 1.5f;
+            _filledImageL.fillAmount -= Time.fixedDeltaTime * 2f;
+            _filledImageR.fillAmount -= Time.fixedDeltaTime * 2f;
         }
     }
 }
