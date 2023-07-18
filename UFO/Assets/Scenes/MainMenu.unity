@@ -7085,6 +7085,7 @@ MonoBehaviour:
   MainCameraVR: {fileID: 331642882}
   MainCamera: {fileID: 5940114966336998591}
   Canvas: {fileID: 1637600393}
+  button: {fileID: 2050515179}
 --- !u!1 &8132153343157497672
 GameObject:
   m_ObjectHideFlags: 0

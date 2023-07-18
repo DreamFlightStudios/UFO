@@ -22,8 +22,6 @@ public class SaveManager : MonoBehaviour
         SliderR.value -= BottomSlider.value;
         SliderL.value -= BottomSlider.value;
     }
-
-    // Update is called once per frame
     private void Update()
     {
         
