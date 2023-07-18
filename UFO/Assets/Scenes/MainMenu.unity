@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0022178253, g: 0.0021231056, b: 0.0020811167, a: 1}
+  m_IndirectSpecularColor: {r: 0.21215841, g: 0.21215841, b: 0.21215841, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -416,12 +416,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 117518923}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb89edb19129e094e8cc82253fd2b01d, type: 3}
+  m_Script: {fileID: 11500000, guid: 96ebb9d08e8662e40ab9bc69ebcb298e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   KnobR: {fileID: 1236376621}
   KnobL: {fileID: 1120810761}
   BotSlider: {fileID: 723201065}
+  _isPlusButton: 0
 --- !u!1 &191554861
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,6 +1242,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &467062910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1518,11 +1520,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 518873862}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4e7aa7833ad9734ab079cae5506cc39, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f1347006b11f0840b7f2944e896df61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _menuCanvas: {fileID: 2040642878}
-  _settingUpVisionCanvas: {fileID: 938392618}
+  _includedCanvas: {fileID: 938392618}
+  _switchableCanvas: {fileID: 2040642878}
 --- !u!65 &518873867
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1634,6 +1636,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &610951917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1734,12 +1737,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 610951917}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d1846de72aff0e47a12b6a5fea0b5ce, type: 3}
+  m_Script: {fileID: 11500000, guid: d9f43a44f381e7040b9fe015ba7cecda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CameraR: {fileID: 2112412130}
   CameraL: {fileID: 634301826}
   UpSlider: {fileID: 870790971}
+  _isPlusButton: 0
 --- !u!1 &634301820
 GameObject:
   m_ObjectHideFlags: 0
@@ -2006,6 +2010,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &698726454
 GameObject:
   m_ObjectHideFlags: 0
@@ -2188,6 +2193,7 @@ MonoBehaviour:
   CameraR: {fileID: 2112412130}
   CameraL: {fileID: 634301826}
   UpSlider: {fileID: 870790971}
+  _isPlusButton: 1
 --- !u!1 &723201063
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,7 +2283,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.163
+  m_Value: 0.16
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3117,7 +3123,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.83
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3597,7 +3603,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.83
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3845,6 +3851,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1463813023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3989,6 +3996,7 @@ MonoBehaviour:
   KnobR: {fileID: 1236376621}
   KnobL: {fileID: 1120810761}
   BotSlider: {fileID: 723201065}
+  _isPlusButton: 1
 --- !u!1 &1516307042
 GameObject:
   m_ObjectHideFlags: 0
@@ -5012,6 +5020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1078651eb68b5da4f86e403671fe2e48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _dataService: {fileID: 1637277882535367737}
 --- !u!1 &1821940265
 GameObject:
   m_ObjectHideFlags: 0
@@ -5593,8 +5602,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f1347006b11f0840b7f2944e896df61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _menuCanvas: {fileID: 2040642878}
-  _settingUpVisionCanvas: {fileID: 938392618}
+  _includedCanvas: {fileID: 2040642878}
+  _switchableCanvas: {fileID: 938392618}
 --- !u!65 &1960396822
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6659,9 +6668,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   raylong: 9000
   ps: {fileID: 6324531225828708527, guid: f364515e3ca80d14a9adc8164e6e2c06, type: 3}
-  UpSlider: {fileID: 870790971}
-  CameraR: {fileID: 2112412130}
-  CameraL: {fileID: 634301826}
   _filledImageL: {fileID: 698726456}
   _filledImageR: {fileID: 484773338}
 --- !u!114 &1637277882535367737
@@ -6676,13 +6682,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a57c968a340184478a47096b1586309, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotCamera: 0
-  UpperSlider: {fileID: 870790971}
-  BottomSlider: {fileID: 723201065}
-  SliderR: {fileID: 1236376621}
-  SliderL: {fileID: 1120810761}
-  CameraR: {fileID: 2112412130}
-  CameraL: {fileID: 634301826}
+  _upperSlider: {fileID: 870790971}
+  _bottomSlider: {fileID: 723201065}
+  _rightAim: {fileID: 1236376621}
+  _leftAim: {fileID: 1120810761}
+  _rightCamera: {fileID: 2112412130}
+  _leftCamera: {fileID: 634301826}
 --- !u!224 &1637277882650284416
 RectTransform:
   m_ObjectHideFlags: 0

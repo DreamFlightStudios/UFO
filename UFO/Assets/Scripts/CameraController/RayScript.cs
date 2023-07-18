@@ -6,20 +6,9 @@ public class RayScript : MonoBehaviour
     [SerializeField] private int raylong;
     [SerializeField] private GameObject ps;
 
-    [SerializeField] private Slider UpSlider;
-
-    [SerializeField] private Camera CameraR;
-    [SerializeField] private Camera CameraL;
-
     [SerializeField] private Image _filledImageL;
     [SerializeField] private Image _filledImageR;
-
-    private void Start()
-    {
-        StaticHolder.CameraRot = UpSlider.value * 4;
-        CameraR.transform.localRotation = Quaternion.Euler(0, StaticHolder.CameraRot, 0);
-        CameraL.transform.localRotation = Quaternion.Euler(0, -StaticHolder.CameraRot, 0);
-    }
+    
     private void FixedUpdate()
     {
         Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * raylong, Color.green);
