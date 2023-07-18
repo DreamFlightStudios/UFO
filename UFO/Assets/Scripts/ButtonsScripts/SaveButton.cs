@@ -5,6 +5,6 @@ public class SaveButton : MonoBehaviour, IActionCaller
 {
    public void Call()
     {
-        SceneManager.LoadScene(0);
+      //код сохранения значений ползунков
     }
 }
