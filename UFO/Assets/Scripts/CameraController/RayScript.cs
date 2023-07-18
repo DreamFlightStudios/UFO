@@ -22,7 +22,6 @@ public class RayScript : MonoBehaviour
     }
     private void FixedUpdate()
     {
-
         Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * raylong, Color.green);
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out RaycastHit hit, raylong))
         {
