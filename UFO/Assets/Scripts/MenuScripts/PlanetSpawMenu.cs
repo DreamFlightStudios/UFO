@@ -21,7 +21,7 @@ public class PlanetSpawMenu : MonoBehaviour
 
             planet.transform.position = position.transform.position;
 
-            planet.transform.localScale = new Vector3(planet.transform.localScale.x, planet.transform.localScale.y, planet.transform.localScale.z) * Random.Range(7, 12);
+            planet.transform.localScale = new Vector3(planet.transform.localScale.x, planet.transform.localScale.y, planet.transform.localScale.z) * Random.Range(1, 10);
             
             planet.transform.rotation = Quaternion.Euler(new Vector3(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360)));
         }
