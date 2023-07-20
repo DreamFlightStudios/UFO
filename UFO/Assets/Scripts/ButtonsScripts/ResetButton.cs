@@ -1,13 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DataService : MonoBehaviour
+public class ResetButton : MonoBehaviour, IActionCaller
 {
-    [SerializeField] private Slider _upperSlider,  _bottomSlider,  _rightAim,  _leftAim; 
-
+    [SerializeField] private Slider _upperSlider, _bottomSlider, _rightAim, _leftAim;
     [SerializeField] private Camera _rightCamera, _leftCamera;
-
-    private void Start()
+    public void Call()
     {
         _upperSlider.value = PlayerPrefs.GetFloat("CameraRotation");
         _rightCamera.transform.localRotation = Quaternion.Euler(0, _upperSlider.value * 4, 0);
@@ -16,12 +14,5 @@ public class DataService : MonoBehaviour
         _bottomSlider.value = PlayerPrefs.GetFloat("BottomSliderPosition");
         _rightAim.value -= _bottomSlider.value;
         _leftAim.value -= _bottomSlider.value;
-    }
-
-    [ContextMenu("SaveData")]
-    public void SaveData()
-    {
-        PlayerPrefs.SetFloat("CameraRotation", _upperSlider.value);
-        PlayerPrefs.SetFloat("BottomSliderPosition", _bottomSlider.value);
     }
 }

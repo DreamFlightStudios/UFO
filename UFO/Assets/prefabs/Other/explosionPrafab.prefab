@@ -9750,7 +9750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1345557153980252253}
   m_Layer: 0
-  m_Name: explosionPrafab
+  m_Name: ExplosionPrafab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
