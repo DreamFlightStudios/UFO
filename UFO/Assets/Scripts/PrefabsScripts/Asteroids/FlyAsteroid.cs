@@ -37,6 +37,7 @@ public class FlyAsteroid : MonoBehaviour
         if (!collision.gameObject.TryGetComponent(out PlanetHealth planet)) return;
         
         _isDead = planet.TakeDamage();
+	Destroy();
     }
 
     public void Destroy()
