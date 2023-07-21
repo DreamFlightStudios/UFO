@@ -42,8 +42,8 @@ public class FlyAsteroid : MonoBehaviour
 
     public void Destroy()
     {
-        Destroy(gameObject);
         GameObject boom = Instantiate(_particleSystem, transform.position, transform.rotation);
         Destroy(boom, 0.5f);
+	Destroy(gameObject);
     }
 }
