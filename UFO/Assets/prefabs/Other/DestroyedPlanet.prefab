@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5738571558804681610}
   - component: {fileID: 7514105501314352960}
   - component: {fileID: 5738571558804681611}
+  - component: {fileID: -5445750058822795858}
+  - component: {fileID: 2594986622638449367}
   m_Layer: 0
   m_Name: DestroyedPlanet
   m_TagString: Untagged
@@ -100,3 +102,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rotationDirection: {x: 2, y: 4, z: 3}
+--- !u!114 &-5445750058822795858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8306761232414221973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6430c67e133f4b708d24321e8f6eb3f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &2594986622638449367
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8306761232414221973}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.009515273
+  m_Center: {x: -0.00003136927, y: 0.00011912127, z: -0.000083357096}
