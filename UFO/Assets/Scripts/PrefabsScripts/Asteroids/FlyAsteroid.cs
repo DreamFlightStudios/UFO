@@ -5,11 +5,11 @@ public class FlyAsteroid : MonoBehaviour
     [SerializeField] private bool _ufoSaveSolarSystem;
     [SerializeField] private GameObject _particleSystem;
 
-    private PlanetRotation _planetRotation;
-    private int _speed;
-    private Vector3 _rotationDirection;
-    private Rigidbody _rigidbody;
-    private bool _isDead;
+    [SerializeField] private PlanetRotation _planetRotation;
+    [SerializeField] private int _speed;
+    [SerializeField] private Vector3 _rotationDirection;
+    [SerializeField] private Rigidbody _rigidbody;
+    [SerializeField] private bool _isDead;
 
     private void Start()
     {
