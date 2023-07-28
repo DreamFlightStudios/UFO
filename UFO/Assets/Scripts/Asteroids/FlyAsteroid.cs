@@ -31,19 +31,16 @@ public class FlyAsteroid : MonoBehaviour
         
         transform.Rotate(_rotationDirection);
     }
-    
-    private void OnCollisionEnter(Collision collision)
+
+    private void OnCollisionEnter(Collision other)
     {
-        if (!collision.gameObject.TryGetComponent(out PlanetHealth planet)) return;
-        
-        _isDead = planet.TakeDamage();
-	Destroy();
+        if (other.gameObject.TryGetComponent(out PlanetHealth planet)) _isDead = planet.TakeDamage();
     }
 
     public void Destroy()
     {
         GameObject boom = Instantiate(_particleSystem, transform.position, transform.rotation);
         Destroy(boom, 0.5f);
-	Destroy(gameObject);
+	    Destroy(gameObject);
     }
 }
