@@ -20,7 +20,7 @@ public class UpperButtons : MonoBehaviour, IActionCaller
     }
     private void RotateCamera()
     {
-        CameraR.transform.localRotation = Quaternion.Euler(0, UpSlider.value * 4, 0);
-        CameraL.transform.localRotation = Quaternion.Euler(0, -UpSlider.value * 4, 0);
+        CameraR.transform.localRotation = Quaternion.Euler(0, UpSlider.value * 12, 0);
+        CameraL.transform.localRotation = Quaternion.Euler(0, -UpSlider.value * 12, 0);
     }
 }

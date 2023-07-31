@@ -10,8 +10,8 @@ public class DataService : MonoBehaviour
     private void Start()
     {
         _upperSlider.value = PlayerPrefs.GetFloat("CameraRotation");
-        _rightCamera.transform.localRotation = Quaternion.Euler(0, _upperSlider.value * 4, 0);
-        _leftCamera.transform.localRotation = Quaternion.Euler(0, -_upperSlider.value * 4, 0);
+        _rightCamera.transform.localRotation = Quaternion.Euler(0, _upperSlider.value * 12, 0);
+        _leftCamera.transform.localRotation = Quaternion.Euler(0, -_upperSlider.value * 12, 0);
 
         _bottomSlider.value = PlayerPrefs.GetFloat("BottomSliderPosition");
         _rightAim.value -= _bottomSlider.value;
