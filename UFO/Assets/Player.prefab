@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7874094607832841205}
   - component: {fileID: 7874094607832841204}
   - component: {fileID: 7874094607832841209}
-  - component: {fileID: 7874094607832841208}
+  - component: {fileID: 1709903289}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7874094607832841207}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4696e0e286b6099408d6be6f717cf21b, type: 3}
   m_Name: 
@@ -57,7 +57,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7874094607832841207}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 242cf323cd9cfb0409f939676b2785fc, type: 3}
   m_Name: 
@@ -80,7 +80,7 @@ MonoBehaviour:
   ps: {fileID: 6324531225828708527, guid: f364515e3ca80d14a9adc8164e6e2c06, type: 3}
   _filledImageL: {fileID: 8934755580339001337}
   _filledImageR: {fileID: 8934755580125061659}
---- !u!114 &7874094607832841208
+--- !u!114 &1709903289
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,11 +89,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7874094607832841207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a57c968a340184478a47096b1586309, type: 3}
+  m_Script: {fileID: 11500000, guid: 5447f22f84d044dca894529a52154c63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _upperSlider: {fileID: 0}
-  _bottomSlider: {fileID: 0}
   _rightAim: {fileID: 8934755580877190124}
   _leftAim: {fileID: 8934755580763969736}
   _rightCamera: {fileID: 8934755581752178211}
@@ -487,6 +485,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8934755580125061657
 GameObject:
   m_ObjectHideFlags: 0
