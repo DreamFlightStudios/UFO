@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.001483245, g: 0.0013570399, b: 0.0012930726, a: 1}
+  m_IndirectSpecularColor: {r: 0.0014902266, g: 0.00139016, b: 0.0013183705, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -140,11 +140,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 292509068128521596, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 315
       objectReference: {fileID: 0}
     - target: {fileID: 292509068128521596, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 807
       objectReference: {fileID: 0}
     - target: {fileID: 292509068128521596, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -403,6 +403,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 83
       objectReference: {fileID: 0}
+    - target: {fileID: -8342683419907093024, guid: e2abcc4581a0a794da413db9e9bcb522, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4545201
+      objectReference: {fileID: 0}
+    - target: {fileID: -8342683419907093024, guid: e2abcc4581a0a794da413db9e9bcb522, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4545201
+      objectReference: {fileID: 0}
+    - target: {fileID: -8342683419907093024, guid: e2abcc4581a0a794da413db9e9bcb522, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4545202
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e2abcc4581a0a794da413db9e9bcb522, type: 3}
       propertyPath: m_Name
       value: ufo
@@ -515,6 +527,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7874094607832841204, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874094607832841205, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7874094607832841206, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -577,11 +597,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8934755580277457475, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: field of view
-      value: 40
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8934755580277457475, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: m_FocalLength
-      value: 32.96973
+      value: 25.734083
       objectReference: {fileID: 0}
     - target: {fileID: 8934755581438792709, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: m_AnchorMax.x
@@ -597,11 +617,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8934755581752178211, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: field of view
-      value: 40
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8934755581752178211, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: m_FocalLength
-      value: 32.96973
+      value: 25.734083
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
@@ -728,8 +748,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.54
-  m_Range: 26.87
+  m_Intensity: 4
+  m_Range: 9
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -767,7 +787,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
