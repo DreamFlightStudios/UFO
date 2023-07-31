@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0014902266, g: 0.00139016, b: 0.0013183705, a: 1}
+  m_IndirectSpecularColor: {r: 0.001483245, g: 0.0013570399, b: 0.0012930726, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -144,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 292509068128521596, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 292509068128521596, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -209,6 +209,46 @@ PrefabInstance:
     - target: {fileID: 2206361678937546586, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
       propertyPath: _scaleRatio.z
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2564016377500875004, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
+      propertyPath: _coefficientMotionDeviation
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2564016377747846012, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
+      propertyPath: _coefficientMotionDeviation
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2564016377852783294, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
+      propertyPath: _coefficientMotionDeviation
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2564016378395416032, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
+      propertyPath: _coefficientMotionDeviation
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2564016378661087354, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
+      propertyPath: _coefficientMotionDeviation
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2564016378682695634, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
+      propertyPath: _coefficientMotionDeviation
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2564016378804082583, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
+      propertyPath: _coefficientMotionDeviation
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2564016379330953539, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
+      propertyPath: _coefficientMotionDeviation
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2564016379420266008, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
+      propertyPath: _coefficientMotionDeviation
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2564016379584987535, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
+      propertyPath: _coefficientMotionDeviation
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2790716726998154438, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
       propertyPath: _scaleRatio.x
@@ -475,14 +515,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7874094607832841204, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7874094607832841205, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7874094607832841206, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -820,6 +852,10 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 800
       objectReference: {fileID: 0}
+    - target: {fileID: 7772489281978115302, guid: 54594b5c8d0670145a22e27edf175c2e, type: 3}
+      propertyPath: _destroyedPlanetParticleSystem
+      value: 
+      objectReference: {fileID: 6324531225828708527, guid: f364515e3ca80d14a9adc8164e6e2c06, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54594b5c8d0670145a22e27edf175c2e, type: 3}
 --- !u!1001 &1811328146
