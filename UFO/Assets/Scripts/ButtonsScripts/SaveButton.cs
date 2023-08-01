@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SaveButton : MonoBehaviour, IActionCaller
 {
-    [SerializeField] private DataService _dataService;
+    [SerializeField] private SaveData _saveData;
     
-    public void Call() => _dataService.SaveData();
+    public void Call() => _saveData.Save();
 }
