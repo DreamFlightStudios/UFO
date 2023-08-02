@@ -668,11 +668,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7874094607832841204, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7874094607832841205, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7874094607832841206, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: m_RootOrder
