@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: f0c3681f62360aa488d62b78f54292a1
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/UFOSaveSolarSystem/Neptune/Neptune.unity
+    guid: 5cf10bee0d3c7694382426eb89e2215f
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6710f93c8e794f94e8ed23c3a40a546c, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 74dc550947b704840b457ed916c52a24, type: 2}

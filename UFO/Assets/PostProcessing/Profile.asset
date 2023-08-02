@@ -1,52 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5825776835964344484
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
-  m_Name: Bloom
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  intensity:
-    overrideState: 1
-    value: 30
-  threshold:
-    overrideState: 1
-    value: 1
-  softKnee:
-    overrideState: 1
-    value: 0.5
-  clamp:
-    overrideState: 0
-    value: 65472
-  diffusion:
-    overrideState: 0
-    value: 7
-  anamorphicRatio:
-    overrideState: 0
-    value: 0
-  color:
-    overrideState: 0
-    value: {r: 1, g: 1, b: 1, a: 1}
-  fastMode:
-    overrideState: 0
-    value: 0
-  dirtTexture:
-    overrideState: 0
-    value: {fileID: 0}
-    defaultState: 1
-  dirtIntensity:
-    overrideState: 0
-    value: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settings:
   - {fileID: 2668710542262497338}
-  - {fileID: -5825776835964344484}
 --- !u!114 &2668710542262497338
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -80,7 +32,7 @@ MonoBehaviour:
     value: 1
   gradingMode:
     overrideState: 1
-    value: 0
+    value: 1
   externalLut:
     overrideState: 0
     value: {fileID: 0}
@@ -114,11 +66,11 @@ MonoBehaviour:
     overrideState: 0
     value: 1
   temperature:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: -7
   tint:
     overrideState: 0
-    value: 0
+    value: -9.3
   colorFilter:
     overrideState: 0
     value: {r: 1, g: 1, b: 1, a: 1}
@@ -127,19 +79,19 @@ MonoBehaviour:
     value: 0
   saturation:
     overrideState: 1
-    value: 50
+    value: 100
   brightness:
-    overrideState: 1
-    value: 10
+    overrideState: 0
+    value: 0
   postExposure:
     overrideState: 0
     value: 0
   contrast:
     overrideState: 1
-    value: 40
+    value: 12
   mixerRedOutRedIn:
     overrideState: 0
-    value: 100
+    value: -142
   mixerRedOutGreenIn:
     overrideState: 0
     value: 0
@@ -166,13 +118,13 @@ MonoBehaviour:
     value: 100
   lift:
     overrideState: 1
-    value: {x: 1, y: 1, z: 1, w: -0.18834081}
+    value: {x: 1, y: 1, z: 1, w: -0.042492915}
   gamma:
     overrideState: 0
-    value: {x: 0.81169075, y: 0.9149606, z: 1, w: -0.01793722}
+    value: {x: 1, y: 1, z: 1, w: 0}
   gain:
     overrideState: 0
-    value: {x: 1, y: 1, z: 1, w: 0}
+    value: {x: 1, y: 1, z: 1, w: -0.184136}
   masterCurve:
     overrideState: 0
     value:

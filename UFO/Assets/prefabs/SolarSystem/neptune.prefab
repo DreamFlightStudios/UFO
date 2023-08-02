@@ -9,6 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 182115234128971646}
+  - component: {fileID: 7772489281978115302}
+  - component: {fileID: 7049500603628871915}
+  - component: {fileID: 8863138641104395056}
+  - component: {fileID: 8892636533376912870}
   m_Layer: 0
   m_Name: neptune
   m_TagString: Untagged
@@ -25,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 182115234128971647}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1726}
-  m_LocalScale: {x: 0.9382, y: 0.9382, z: 0.9382}
+  m_LocalScale: {x: 0.31637043, y: 0.31637043, z: 0.31637043}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4786273434992216368}
@@ -34,6 +38,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7772489281978115302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182115234128971647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d08a29b13664594b30780f7e6c90b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _live: 10
+  _planet: {fileID: 182115234128971647}
+  _destroyedPlanet: {fileID: 8306761232414221973, guid: 27038383fabc93242995da9b933ae624, type: 3}
+  _destroyedPlanetParticalSystem: {fileID: 6324531225828708527, guid: f364515e3ca80d14a9adc8164e6e2c06, type: 3}
+--- !u!135 &7049500603628871915
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182115234128971647}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 500
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &8863138641104395056
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182115234128971647}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 120
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8892636533376912870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182115234128971647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6430c67e133f4b708d24321e8f6eb3f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &423418085205623659
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,10 +272,9 @@ GameObject:
   - component: {fileID: 5283162210264655564}
   - component: {fileID: 3705207974132820549}
   - component: {fileID: 5283162210264655567}
-  - component: {fileID: 5283162210264655566}
   m_Layer: 0
   m_Name: neptune
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -303,18 +360,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rotationDirection: {x: 0, y: 0, z: -4}
-  live: 10
-  planet: {fileID: 0}
---- !u!135 &5283162210264655566
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3467357532294037215}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.009303052
-  m_Center: {x: -0.000000014901161, y: 0.000000014901161, z: 0}

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2564016377500875005}
   - component: {fileID: 2564016377500875004}
   - component: {fileID: 2564016377500875007}
+  - component: {fileID: 6512396051252299821}
   m_Layer: 0
   m_Name: asteroid3
   m_TagString: Asteroid
@@ -114,9 +115,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d20061c3c4dbe574f9b6b27d6671403e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _UfoSaveSolarSistem: 0
-  _planet: {fileID: 0}
+  _ufoSaveSolarSystem: 1
   _particleSystem: {fileID: 6324531225828708527, guid: f364515e3ca80d14a9adc8164e6e2c06, type: 3}
+  _planetRotation: {fileID: 0}
+  _speed: 0
+  _rotationDirection: {x: 0, y: 0, z: 0}
+  _rigidbody: {fileID: 0}
+  _isDead: 0
 --- !u!135 &2564016377500875007
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -130,6 +135,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.012014537
   m_Center: {x: 0.00019782128, y: 0.0010293813, z: -0.00089467294}
+--- !u!114 &6512396051252299821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564016377500874977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67aa874c87e44218cf3654a83108bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scaleRatio: {x: 10, y: 10, z: 10}
 --- !u!1 &2564016377747845985
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,6 +162,7 @@ GameObject:
   - component: {fileID: 2564016377747846013}
   - component: {fileID: 2564016377747846012}
   - component: {fileID: 2564016377747846015}
+  - component: {fileID: 7586648299156714648}
   m_Layer: 0
   m_Name: asteroid10
   m_TagString: Asteroid
@@ -244,9 +263,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d20061c3c4dbe574f9b6b27d6671403e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _UfoSaveSolarSistem: 0
-  _planet: {fileID: 0}
+  _ufoSaveSolarSystem: 1
   _particleSystem: {fileID: 6324531225828708527, guid: f364515e3ca80d14a9adc8164e6e2c06, type: 3}
+  _planetRotation: {fileID: 0}
+  _speed: 0
+  _rotationDirection: {x: 0, y: 0, z: 0}
+  _rigidbody: {fileID: 0}
+  _isDead: 0
 --- !u!135 &2564016377747846015
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -260,6 +283,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.011730472
   m_Center: {x: -0.0007504324, y: -0.0015051006, z: -0.0010902972}
+--- !u!114 &7586648299156714648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564016377747845985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67aa874c87e44218cf3654a83108bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scaleRatio: {x: 10, y: 10, z: 10}
 --- !u!1 &2564016377852783267
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,6 +310,7 @@ GameObject:
   - component: {fileID: 2564016377852783295}
   - component: {fileID: 2564016377852783294}
   - component: {fileID: 2564016377852783265}
+  - component: {fileID: 5647202517522747522}
   m_Layer: 0
   m_Name: asteroid5
   m_TagString: Asteroid
@@ -374,9 +411,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d20061c3c4dbe574f9b6b27d6671403e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _UfoSaveSolarSistem: 0
-  _planet: {fileID: 0}
+  _ufoSaveSolarSystem: 1
   _particleSystem: {fileID: 6324531225828708527, guid: f364515e3ca80d14a9adc8164e6e2c06, type: 3}
+  _planetRotation: {fileID: 0}
+  _speed: 0
+  _rotationDirection: {x: 0, y: 0, z: 0}
+  _rigidbody: {fileID: 0}
+  _isDead: 0
 --- !u!135 &2564016377852783265
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -390,6 +431,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.009801973
   m_Center: {x: 0.004518616, y: -0.0035738742, z: -0.000566278}
+--- !u!114 &5647202517522747522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564016377852783267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67aa874c87e44218cf3654a83108bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scaleRatio: {x: 10, y: 10, z: 10}
 --- !u!1 &2564016378395416037
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,6 +458,7 @@ GameObject:
   - component: {fileID: 2564016378395416033}
   - component: {fileID: 2564016378395416032}
   - component: {fileID: 2564016378395416035}
+  - component: {fileID: 1180168478918506076}
   m_Layer: 0
   m_Name: asteroid4
   m_TagString: Asteroid
@@ -504,9 +559,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d20061c3c4dbe574f9b6b27d6671403e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _UfoSaveSolarSistem: 0
-  _planet: {fileID: 0}
+  _ufoSaveSolarSystem: 1
   _particleSystem: {fileID: 6324531225828708527, guid: f364515e3ca80d14a9adc8164e6e2c06, type: 3}
+  _planetRotation: {fileID: 0}
+  _speed: 0
+  _rotationDirection: {x: 0, y: 0, z: 0}
+  _rigidbody: {fileID: 0}
+  _isDead: 0
 --- !u!135 &2564016378395416035
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -520,6 +579,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.010915596
   m_Center: {x: 0.0041584144, y: 0.00042649815, z: 0.0017941331}
+--- !u!114 &1180168478918506076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564016378395416037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67aa874c87e44218cf3654a83108bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scaleRatio: {x: 10, y: 10, z: 10}
 --- !u!1 &2564016378661087359
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,6 +606,7 @@ GameObject:
   - component: {fileID: 2564016378661087355}
   - component: {fileID: 2564016378661087354}
   - component: {fileID: 2564016378661087357}
+  - component: {fileID: 909665083800046539}
   m_Layer: 0
   m_Name: asteroid9
   m_TagString: Asteroid
@@ -634,9 +707,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d20061c3c4dbe574f9b6b27d6671403e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _UfoSaveSolarSistem: 0
-  _planet: {fileID: 0}
+  _ufoSaveSolarSystem: 1
   _particleSystem: {fileID: 6324531225828708527, guid: f364515e3ca80d14a9adc8164e6e2c06, type: 3}
+  _planetRotation: {fileID: 0}
+  _speed: 0
+  _rotationDirection: {x: 0, y: 0, z: 0}
+  _rigidbody: {fileID: 0}
+  _isDead: 0
 --- !u!135 &2564016378661087357
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -650,6 +727,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.01043268
   m_Center: {x: -0.00011421088, y: -0.00045992574, z: 0.00039450405}
+--- !u!114 &909665083800046539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564016378661087359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67aa874c87e44218cf3654a83108bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scaleRatio: {x: 10, y: 10, z: 10}
 --- !u!1 &2564016378682695639
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,6 +754,7 @@ GameObject:
   - component: {fileID: 2564016378682695635}
   - component: {fileID: 2564016378682695634}
   - component: {fileID: 2564016378682695637}
+  - component: {fileID: 2790716726998154438}
   m_Layer: 0
   m_Name: asteroid7
   m_TagString: Asteroid
@@ -764,9 +855,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d20061c3c4dbe574f9b6b27d6671403e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _UfoSaveSolarSistem: 0
-  _planet: {fileID: 0}
+  _ufoSaveSolarSystem: 1
   _particleSystem: {fileID: 6324531225828708527, guid: f364515e3ca80d14a9adc8164e6e2c06, type: 3}
+  _planetRotation: {fileID: 0}
+  _speed: 0
+  _rotationDirection: {x: 0, y: 0, z: 0}
+  _rigidbody: {fileID: 0}
+  _isDead: 0
 --- !u!135 &2564016378682695637
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -780,6 +875,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.010154553
   m_Center: {x: -0.00034493348, y: 0.0006724902, z: 0.00055470585}
+--- !u!114 &2790716726998154438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564016378682695639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67aa874c87e44218cf3654a83108bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scaleRatio: {x: 10, y: 10, z: 10}
 --- !u!1 &2564016378804082584
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,6 +902,7 @@ GameObject:
   - component: {fileID: 2564016378804082580}
   - component: {fileID: 2564016378804082583}
   - component: {fileID: 2564016378804082582}
+  - component: {fileID: 8811219569273613695}
   m_Layer: 0
   m_Name: asteroid2
   m_TagString: Asteroid
@@ -894,9 +1003,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d20061c3c4dbe574f9b6b27d6671403e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _UfoSaveSolarSistem: 0
-  _planet: {fileID: 0}
+  _ufoSaveSolarSystem: 1
   _particleSystem: {fileID: 6324531225828708527, guid: f364515e3ca80d14a9adc8164e6e2c06, type: 3}
+  _planetRotation: {fileID: 0}
+  _speed: 0
+  _rotationDirection: {x: 0, y: 0, z: 0}
+  _rigidbody: {fileID: 0}
+  _isDead: 0
 --- !u!135 &2564016378804082582
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -910,6 +1023,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.009982284
   m_Center: {x: 0.0007154816, y: -0.0011294684, z: -0.00016515609}
+--- !u!114 &8811219569273613695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564016378804082584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67aa874c87e44218cf3654a83108bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scaleRatio: {x: 10, y: 10, z: 10}
 --- !u!1 &2564016379330953540
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,6 +1050,7 @@ GameObject:
   - component: {fileID: 2564016379330953536}
   - component: {fileID: 2564016379330953539}
   - component: {fileID: 2564016379330953538}
+  - component: {fileID: 4041179037805544515}
   m_Layer: 0
   m_Name: asteroid8
   m_TagString: Asteroid
@@ -1024,9 +1151,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d20061c3c4dbe574f9b6b27d6671403e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _UfoSaveSolarSistem: 0
-  _planet: {fileID: 0}
+  _ufoSaveSolarSystem: 1
   _particleSystem: {fileID: 6324531225828708527, guid: f364515e3ca80d14a9adc8164e6e2c06, type: 3}
+  _planetRotation: {fileID: 0}
+  _speed: 0
+  _rotationDirection: {x: 0, y: 0, z: 0}
+  _rigidbody: {fileID: 0}
+  _isDead: 0
 --- !u!135 &2564016379330953538
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1040,6 +1171,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.01043791
   m_Center: {x: -0.00013036649, y: -0.0011101061, z: -0.0002365485}
+--- !u!114 &4041179037805544515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564016379330953540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67aa874c87e44218cf3654a83108bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scaleRatio: {x: 10, y: 10, z: 10}
 --- !u!1 &2564016379420266013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1054,6 +1198,7 @@ GameObject:
   - component: {fileID: 2564016379420266009}
   - component: {fileID: 2564016379420266008}
   - component: {fileID: 2564016379420266011}
+  - component: {fileID: 7616594741546394092}
   m_Layer: 0
   m_Name: asteroid6
   m_TagString: Asteroid
@@ -1154,9 +1299,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d20061c3c4dbe574f9b6b27d6671403e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _UfoSaveSolarSistem: 0
-  _planet: {fileID: 0}
+  _ufoSaveSolarSystem: 1
   _particleSystem: {fileID: 6324531225828708527, guid: f364515e3ca80d14a9adc8164e6e2c06, type: 3}
+  _planetRotation: {fileID: 0}
+  _speed: 0
+  _rotationDirection: {x: 0, y: 0, z: 0}
+  _rigidbody: {fileID: 0}
+  _isDead: 0
 --- !u!135 &2564016379420266011
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1170,6 +1319,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.01152177
   m_Center: {x: 0.0017604813, y: 0.0003248359, z: -0.00017587743}
+--- !u!114 &7616594741546394092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564016379420266013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67aa874c87e44218cf3654a83108bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scaleRatio: {x: 10, y: 10, z: 10}
 --- !u!1 &2564016379584987632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,6 +1346,7 @@ GameObject:
   - component: {fileID: 2564016379584987532}
   - component: {fileID: 2564016379584987535}
   - component: {fileID: 2564016379584987534}
+  - component: {fileID: 2206361678937546586}
   m_Layer: 0
   m_Name: asteroid1
   m_TagString: Asteroid
@@ -1284,9 +1447,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d20061c3c4dbe574f9b6b27d6671403e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _UfoSaveSolarSistem: 0
-  _planet: {fileID: 0}
+  _ufoSaveSolarSystem: 1
   _particleSystem: {fileID: 6324531225828708527, guid: f364515e3ca80d14a9adc8164e6e2c06, type: 3}
+  _planetRotation: {fileID: 0}
+  _speed: 0
+  _rotationDirection: {x: 0, y: 0, z: 0}
+  _rigidbody: {fileID: 0}
+  _isDead: 0
 --- !u!135 &2564016379584987534
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1300,6 +1467,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.010611724
   m_Center: {x: -0.000055898447, y: -0.00046953504, z: 0.00028635788}
+--- !u!114 &2206361678937546586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564016379584987632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67aa874c87e44218cf3654a83108bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scaleRatio: {x: 10, y: 10, z: 10}
 --- !u!1 &3314670292334928578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1366,4 +1546,7 @@ MonoBehaviour:
   - {fileID: 2564016378661087359}
   - {fileID: 2564016377747845985}
   count: 200
-  _spawnInterval: {x: 1000, y: 1000, z: 1000}
+  complexity: 1
+  xcount: 4000
+  ycount: 4000
+  zcount: 4000
