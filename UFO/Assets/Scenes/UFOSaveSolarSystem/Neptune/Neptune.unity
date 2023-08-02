@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0014902266, g: 0.00139016, b: 0.0013183705, a: 1}
+  m_IndirectSpecularColor: {r: 0.001483245, g: 0.0013570399, b: 0.0012930726, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -149,7 +149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 292509068128521596, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 807
+      value: 6000
       objectReference: {fileID: 0}
     - target: {fileID: 292509068128521596, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -282,6 +282,10 @@ PrefabInstance:
     - target: {fileID: 4041179037805544515, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
       propertyPath: _scaleRatio.z
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5619945473320047610, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
+      propertyPath: count
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5647202517522747522, guid: da79f4422db0ced4bba4a7999043c1fd, type: 3}
       propertyPath: _scaleRatio.x
@@ -732,11 +736,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8934755580277457475, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: field of view
-      value: 40
+      value: 60.000004
       objectReference: {fileID: 0}
     - target: {fileID: 8934755580277457475, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: m_FocalLength
-      value: 32.96973
+      value: 20.78461
       objectReference: {fileID: 0}
     - target: {fileID: 8934755581438792709, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: m_AnchorMax.x
@@ -752,11 +756,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8934755581752178211, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: field of view
-      value: 40
+      value: 60.000004
       objectReference: {fileID: 0}
     - target: {fileID: 8934755581752178211, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: m_FocalLength
-      value: 32.96973
+      value: 20.78461
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
