@@ -8,8 +8,6 @@ public class PlanetHealth : MonoBehaviour
     [SerializeField] private GameObject _destroyedPlanet;
     [SerializeField] private GameObject _destroyedPlanetParticleSystem;
 
-    public event Action OnDied;
-
     public void TakeDamage()
     {
         _live--;
@@ -19,6 +17,5 @@ public class PlanetHealth : MonoBehaviour
 
         Instantiate(_destroyedPlanet, transform.position, Quaternion.identity);
         Instantiate(_destroyedPlanetParticleSystem, transform.position, Quaternion.identity);
-        OnDied?.Invoke();
     }
 }
