@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0014902266, g: 0.00139016, b: 0.0013183705, a: 1}
+  m_IndirectSpecularColor: {r: 0.001483245, g: 0.0013570399, b: 0.0012930726, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1242,7 +1242,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &593567593
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1259,7 +1259,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &610951917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1452,7 +1453,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &662371463
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1469,7 +1470,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &701950273
 GameObject:
   m_ObjectHideFlags: 0
@@ -2052,6 +2054,7 @@ GameObject:
   - component: {fileID: 938392622}
   - component: {fileID: 938392621}
   - component: {fileID: 938392620}
+  - component: {fileID: 938392623}
   m_Layer: 0
   m_Name: SettingUpVisionCanvas
   m_TagString: Untagged
@@ -2146,6 +2149,20 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &938392623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938392618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a57c968a340184478a47096b1586309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _upperSlider: {fileID: 870790971}
+  _bottomSlider: {fileID: 723201065}
 --- !u!1 &1038918975
 GameObject:
   m_ObjectHideFlags: 0
@@ -2959,7 +2976,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1463813022
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2976,7 +2993,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1463813023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4445,7 +4463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1078651eb68b5da4f86e403671fe2e48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dataService: {fileID: 1637277882535367737}
+  _saveData: {fileID: 938392623}
 --- !u!1 &1821940265
 GameObject:
   m_ObjectHideFlags: 0
@@ -5941,17 +5959,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7874094607832841206, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
   m_PrefabInstance: {fileID: 8934755579661791169}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1637277882535367737 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7874094607832841208, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
-  m_PrefabInstance: {fileID: 8934755579661791169}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a57c968a340184478a47096b1586309, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8132153343157497672
 GameObject:
   m_ObjectHideFlags: 0
