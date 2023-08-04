@@ -457,11 +457,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7874094607832841204, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7874094607832841205, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7874094607832841206, guid: 2b4e4fb0d0e1d744bba77bdc99ca1bad, type: 3}
       propertyPath: m_RootOrder
@@ -706,6 +706,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: neptune
       objectReference: {fileID: 0}
+    - target: {fileID: 182115234128971647, guid: 54594b5c8d0670145a22e27edf175c2e, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 423418085205623659, guid: 54594b5c8d0670145a22e27edf175c2e, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633379387642837527, guid: 54594b5c8d0670145a22e27edf175c2e, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3467357532294037215, guid: 54594b5c8d0670145a22e27edf175c2e, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7049500603628871915, guid: 54594b5c8d0670145a22e27edf175c2e, type: 3}
       propertyPath: m_Radius
       value: 800
@@ -798,6 +814,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e7e17753d567aad46a2b3184aa0da7b4, type: 3}
       propertyPath: m_Name
       value: ufo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137430196487004278, guid: e7e17753d567aad46a2b3184aa0da7b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7e17753d567aad46a2b3184aa0da7b4, type: 3}
