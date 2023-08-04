@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.001483245, g: 0.0013570399, b: 0.0012930726, a: 1}
+  m_IndirectSpecularColor: {r: 0.0014902266, g: 0.00139016, b: 0.0013183705, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1015,6 +1015,10 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 800
       objectReference: {fileID: 0}
+    - target: {fileID: 7772489281978115302, guid: 54594b5c8d0670145a22e27edf175c2e, type: 3}
+      propertyPath: _destroyedPlanet
+      value: 
+      objectReference: {fileID: 3295765128708093697, guid: 03a68942954c5df47b2258fed7963792, type: 3}
     - target: {fileID: 7772489281978115302, guid: 54594b5c8d0670145a22e27edf175c2e, type: 3}
       propertyPath: _destroyedPlanetParticleSystem
       value: 

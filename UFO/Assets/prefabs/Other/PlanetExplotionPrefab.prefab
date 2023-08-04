@@ -4998,7 +4998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 807700116099017851}
   m_Layer: 0
-  m_Name: PlanetExplotion
+  m_Name: PlanetExplotionPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
