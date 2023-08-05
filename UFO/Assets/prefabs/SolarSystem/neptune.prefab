@@ -52,8 +52,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _live: 10
   _planet: {fileID: 182115234128971647}
-  _destroyedPlanet: {fileID: 8306761232414221973, guid: 27038383fabc93242995da9b933ae624, type: 3}
-  _destroyedPlanetParticalSystem: {fileID: 6324531225828708527, guid: f364515e3ca80d14a9adc8164e6e2c06, type: 3}
+  _destroyedPlanet: {fileID: 3295765128708093697, guid: 03a68942954c5df47b2258fed7963792, type: 3}
 --- !u!135 &7049500603628871915
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -65,7 +64,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 500
+  m_Radius: 800
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!135 &8863138641104395056
 SphereCollider:
